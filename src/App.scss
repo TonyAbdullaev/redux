@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px;
+  background: #ebebeb;
+  font-size: 14px;
+  font-family: Verdana, sans-serif;
+}
+
+.layout {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cash__title {
+  margin: 10px;
+}
+
+.primary__button {
+  min-width: 100px;
+  border: 0;
+  padding: 15px;
+  margin: 10px;
+  color: white;
+  background: teal;
+}
+
+.secondary__button {
+  width: 100px;
+  border: 0;
+  padding: 15px;
+  margin: 10px;
+  color: white;
+  background: #464646;
+}
+
+.customer {
+  min-width: 100px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 2em;
+  background: darkblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
